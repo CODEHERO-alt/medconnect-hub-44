@@ -25,7 +25,7 @@ const Header = () => {
     >
       <div className="max-w-7xl mx-auto px-6 h-[72px] flex items-center justify-between">
         {/* Brand */}
-        <a href="#" className={`font-display font-bold text-xl tracking-tight transition-colors ${scrolled ? "text-foreground" : "text-primary-foreground"}`}>
+        <a href="#" className={`font-display font-bold text-xl tracking-tight transition-colors ${scrolled ? "text-foreground" : "text-white"}`}>
           MedConnect
         </a>
 
@@ -36,7 +36,7 @@ const Header = () => {
               key={link}
               href={`#${link.toLowerCase()}`}
               className={`text-sm font-medium transition-colors hover:text-accent ${
-                scrolled ? "text-foreground/70" : "text-primary-foreground/80"
+                scrolled ? "text-foreground/70" : "text-white/80"
               }`}
             >
               {link}
@@ -48,7 +48,7 @@ const Header = () => {
         <div className="flex items-center gap-3">
           <button
             className={`p-2 rounded-lg transition-colors ${
-              scrolled ? "text-foreground/60 hover:text-foreground" : "text-primary-foreground/70 hover:text-primary-foreground"
+              scrolled ? "text-foreground/60 hover:text-foreground" : "text-white/70 hover:text-white"
             }`}
           >
             <Search className="w-5 h-5" />
@@ -57,7 +57,7 @@ const Header = () => {
             variant="ghost"
             size="sm"
             className={`hidden sm:inline-flex ${
-              scrolled ? "text-foreground hover:bg-muted" : "text-primary-foreground hover:bg-primary-foreground/10"
+              scrolled ? "text-foreground hover:bg-muted" : "text-white hover:bg-white/10"
             }`}
           >
             Login
@@ -67,7 +67,7 @@ const Header = () => {
           </Button>
           <button
             onClick={() => setMobileOpen(!mobileOpen)}
-            className={`lg:hidden p-2 rounded-lg ${scrolled ? "text-foreground" : "text-primary-foreground"}`}
+            className={`lg:hidden p-2 rounded-lg ${scrolled ? "text-foreground" : "text-white"}`}
           >
             {mobileOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
           </button>

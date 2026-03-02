@@ -15,10 +15,10 @@ const FinalCTA = () => {
           viewport={{ once: true }}
           transition={{ duration: 0.5 }}
         >
-          <h2 className="font-display font-bold text-3xl md:text-5xl text-primary-foreground mb-5 leading-tight">
+          <h2 className="font-display font-bold text-3xl md:text-5xl text-white mb-5 leading-tight">
             Join the future of medical collaboration
           </h2>
-          <p className="text-primary-foreground/65 text-lg mb-10 leading-relaxed">
+          <p className="text-white/65 text-lg mb-10 leading-relaxed">
             Whether you are a physician looking for your next opportunity or an organization building a world-class team.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">

@@ -28,7 +28,7 @@ const HeroSection = () => {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.15 }}
-          className="font-display font-extrabold text-4xl sm:text-5xl md:text-6xl lg:text-7xl leading-[1.08] tracking-tight text-primary-foreground max-w-4xl mx-auto mb-6"
+          className="font-display font-extrabold text-4xl sm:text-5xl md:text-6xl lg:text-7xl leading-[1.08] tracking-tight text-white max-w-4xl mx-auto mb-6"
         >
           Where Medical Professionals Connect and Advance
         </motion.h1>
@@ -38,7 +38,7 @@ const HeroSection = () => {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.3 }}
-          className="text-lg md:text-xl text-primary-foreground/65 max-w-2xl mx-auto mb-10 leading-relaxed"
+          className="text-lg md:text-xl text-white/65 max-w-2xl mx-auto mb-10 leading-relaxed"
         >
           A modern platform for physicians and healthcare organizations to collaborate, find opportunities, and grow professionally.
         </motion.p>
@@ -61,7 +61,7 @@ const HeroSection = () => {
           transition={{ duration: 0.8, delay: 0.6 }}
           className="relative max-w-5xl mx-auto"
         >
-          <div className="rounded-2xl overflow-hidden shadow-2xl border border-primary-foreground/10">
+          <div className="rounded-2xl overflow-hidden shadow-2xl border border-white/10">
             <img
               src={heroDashboard}
               alt="MedConnect platform dashboard showing job board, physician profiles, community feed, and messaging"
