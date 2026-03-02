@@ -1,3 +1,5 @@
+import ThemeSwitcher from "@/components/ThemeSwitcher";
+
 const footerLinks = {
   Platform: ["Job Board", "Community", "Messaging", "Events"],
   Company: ["About", "Careers", "Blog", "Contact"],
@@ -34,10 +36,11 @@ const Footer = () => {
           ))}
         </div>
 
-        <div className="border-t border-primary-foreground/10 pt-8">
+        <div className="border-t border-primary-foreground/10 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-sm text-primary-foreground/40">
             &copy; 2025 MedConnect. All rights reserved.
           </p>
+          <ThemeSwitcher />
         </div>
       </div>
     </footer>
