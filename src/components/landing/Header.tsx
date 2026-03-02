@@ -25,7 +25,7 @@ const Header = () => {
     >
       <div className="max-w-7xl mx-auto px-6 h-[72px] flex items-center justify-between">
         {/* Brand */}
-        <a href="#" className={`font-display font-bold text-xl tracking-tight transition-colors ${scrolled ? "text-foreground" : "text-white"}`}>
+        <a href="#" className={`font-display font-bold text-xl tracking-tight transition-colors duration-300 ${scrolled ? "text-foreground" : "text-white"}`}>
           MedConnect
         </a>
 
