@@ -1,12 +1,33 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import Header from "@/components/landing/Header";
+import HeroSection from "@/components/landing/HeroSection";
+import ModulesCarousel from "@/components/landing/ModulesCarousel";
+import RoleCategoryExplorer from "@/components/landing/RoleCategoryExplorer";
+import FeatureJobDiscovery from "@/components/landing/FeatureJobDiscovery";
+import FeatureCommunity from "@/components/landing/FeatureCommunity";
+import MessagingSection from "@/components/landing/MessagingSection";
+import EcosystemOverview from "@/components/landing/EcosystemOverview";
+import OrganizationsSection from "@/components/landing/OrganizationsSection";
+import Testimonials from "@/components/landing/Testimonials";
+import FinalCTA from "@/components/landing/FinalCTA";
+import FAQ from "@/components/landing/FAQ";
+import Footer from "@/components/landing/Footer";
 
 const Index = () => {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="mb-4 text-4xl font-bold">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
-      </div>
+    <div className="min-h-screen">
+      <Header />
+      <HeroSection />
+      <ModulesCarousel />
+      <RoleCategoryExplorer />
+      <FeatureJobDiscovery />
+      <FeatureCommunity />
+      <MessagingSection />
+      <EcosystemOverview />
+      <OrganizationsSection />
+      <Testimonials />
+      <FinalCTA />
+      <FAQ />
+      <Footer />
     </div>
   );
 };
