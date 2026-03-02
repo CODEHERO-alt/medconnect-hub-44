@@ -54,9 +54,9 @@ const RoleCategoryExplorer = () => {
                 className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
                 loading="lazy"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-primary/95 via-primary/40 to-primary/10" />
+              <div className="absolute inset-0 bg-gradient-to-t from-[hsl(215_45%_8%/0.95)] via-[hsl(215_45%_12%/0.4)] to-[hsl(215_45%_12%/0.1)]" />
               <div className="absolute bottom-0 left-0 right-0 p-8">
-                <h3 className="font-display font-bold text-2xl text-primary-foreground mb-4">{tile.title}</h3>
+                <h3 className="font-display font-bold text-2xl text-white mb-4">{tile.title}</h3>
                 <Button variant="hero" size="lg">{tile.cta}</Button>
               </div>
             </motion.div>
