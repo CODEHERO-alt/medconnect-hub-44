@@ -51,6 +51,10 @@
     --card-shadow: 0 1px 3px hsl(215 45% 12% / 0.06), 0 8px 24px hsl(215 45% 12% / 0.04);
     --card-shadow-hover: 0 4px 12px hsl(215 45% 12% / 0.08), 0 16px 40px hsl(215 45% 12% / 0.06);
 
+    /* Always-dark surface for footer, overlays, chat headers */
+    --surface-inverted: 215 45% 12%;
+    --surface-inverted-foreground: 210 20% 98%;
+
     --font-display: 'Plus Jakarta Sans', system-ui, sans-serif;
     --font-body: 'Inter', system-ui, sans-serif;
   }
@@ -64,15 +68,21 @@
     --popover-foreground: 210 20% 95%;
     --primary: 210 20% 95%;
     --primary-foreground: 215 45% 12%;
-    --secondary: 217 30% 18%;
+    --secondary: 217 30% 14%;
     --secondary-foreground: 210 20% 95%;
     --muted: 217 30% 18%;
     --muted-foreground: 215 20% 65%;
-    --accent: 174 62% 42%;
+    --accent: 174 62% 48%;
     --accent-foreground: 0 0% 100%;
-    --border: 217 30% 20%;
+    --border: 217 30% 22%;
     --input: 217 30% 20%;
     --ring: 174 62% 42%;
+
+    --surface-inverted: 215 45% 10%;
+    --surface-inverted-foreground: 210 20% 95%;
+
+    --card-shadow: 0 1px 3px hsl(0 0% 0% / 0.2), 0 8px 24px hsl(0 0% 0% / 0.15);
+    --card-shadow-hover: 0 4px 12px hsl(0 0% 0% / 0.25), 0 16px 40px hsl(0 0% 0% / 0.2);
   }
 }
 

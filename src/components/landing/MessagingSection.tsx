@@ -30,19 +30,19 @@ const MessagingSection = () => {
           {/* Built messaging UI mockup */}
           <div className="bg-card rounded-2xl shadow-card-hover border border-border/50 overflow-hidden text-left">
             {/* Header */}
-            <div className="bg-primary px-6 py-4 flex items-center justify-between">
+            <div className="bg-surface-inverted px-6 py-4 flex items-center justify-between">
               <div className="flex items-center gap-3">
                 <div className="w-10 h-10 rounded-full bg-accent/20 flex items-center justify-center font-display font-bold text-accent text-sm">
                   SM
                 </div>
                 <div>
-                  <p className="font-semibold text-sm text-primary-foreground flex items-center gap-1.5">
+                  <p className="font-semibold text-sm text-surface-inverted-foreground flex items-center gap-1.5">
                     Sarah Mitchell <BadgeCheck className="w-4 h-4 text-accent" />
                   </p>
-                  <p className="text-xs text-primary-foreground/50">Family Medicine · Mayo Clinic</p>
+                  <p className="text-xs text-surface-inverted-foreground/50">Family Medicine · Mayo Clinic</p>
                 </div>
               </div>
-              <span className="text-xs text-primary-foreground/40 font-medium">Encrypted</span>
+              <span className="text-xs text-surface-inverted-foreground/40 font-medium">Encrypted</span>
             </div>
 
             {/* Messages */}
@@ -60,7 +60,7 @@ const MessagingSection = () => {
 
               {/* Sent */}
               <div className="flex gap-3 max-w-[80%] ml-auto flex-row-reverse">
-                <div className="w-8 h-8 rounded-full bg-primary/15 flex items-center justify-center font-display font-bold text-primary text-xs flex-shrink-0 mt-1">JP</div>
+                <div className="w-8 h-8 rounded-full bg-muted flex items-center justify-center font-display font-bold text-foreground text-xs flex-shrink-0 mt-1">JP</div>
                 <div>
                   <div className="bg-accent rounded-2xl rounded-tr-sm px-4 py-3 shadow-sm">
                     <p className="text-sm text-accent-foreground">That would be incredibly helpful, Dr. Mitchell. I have been weighing the pros and cons for months. When would be a good time to connect?</p>

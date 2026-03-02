@@ -11,7 +11,7 @@ const ThemeSwitcher = () => {
   const { theme, setTheme } = useTheme();
 
   return (
-    <div className="inline-flex items-center gap-0.5 rounded-full border border-primary-foreground/15 p-[3px]">
+    <div className="inline-flex items-center gap-0.5 rounded-full border border-surface-inverted-foreground/15 p-[3px]">
       {options.map(({ value, icon: Icon, label }) => {
         const active = theme === value;
         return (
@@ -26,8 +26,8 @@ const ThemeSwitcher = () => {
               transition-all duration-150 ease-in-out
               min-w-[36px] justify-center
               ${active
-                ? "bg-primary-foreground/15 text-primary-foreground shadow-[0_1px_2px_rgba(0,0,0,0.06)]"
-                : "bg-transparent text-primary-foreground/50 hover:bg-primary-foreground/8 hover:text-primary-foreground/70"
+                ? "bg-surface-inverted-foreground/15 text-surface-inverted-foreground shadow-[0_1px_2px_rgba(0,0,0,0.06)]"
+                : "bg-transparent text-surface-inverted-foreground/50 hover:text-surface-inverted-foreground/70"
               }
             `}
           >
