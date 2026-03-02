@@ -12,10 +12,10 @@ const EcosystemOverview = () => {
           transition={{ duration: 0.5 }}
         >
           <p className="text-sm font-semibold text-accent uppercase tracking-wider mb-3">Ecosystem</p>
-          <h2 className="font-display font-bold text-3xl md:text-4xl text-primary-foreground mb-4 max-w-2xl mx-auto">
+          <h2 className="font-display font-bold text-3xl md:text-4xl text-white mb-4 max-w-2xl mx-auto">
             Everything you need, connected
           </h2>
-          <p className="text-primary-foreground/65 text-lg max-w-2xl mx-auto mb-14 leading-relaxed">
+          <p className="text-white/65 text-lg max-w-2xl mx-auto mb-14 leading-relaxed">
             Jobs, messaging, community, news, events, and marketplace all integrated in one seamless platform experience.
           </p>
         </motion.div>
@@ -27,7 +27,7 @@ const EcosystemOverview = () => {
           transition={{ duration: 0.8, delay: 0.15 }}
           className="max-w-6xl mx-auto relative"
         >
-          <div className="rounded-2xl overflow-hidden shadow-2xl border border-primary-foreground/10">
+          <div className="rounded-2xl overflow-hidden shadow-2xl border border-white/10">
             <img
               src={ecosystemDashboard}
               alt="MedConnect unified dashboard showing all platform modules connected"
