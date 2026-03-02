@@ -19,6 +19,14 @@
   </head>
 
   <body>
+    <script>
+      (function(){
+        var t=localStorage.getItem('theme-preference')||'system';
+        var d=t==='system'?window.matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light':t;
+        document.documentElement.setAttribute('data-theme',d);
+        if(d==='dark')document.documentElement.classList.add('dark');
+      })();
+    </script>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
   </body>
